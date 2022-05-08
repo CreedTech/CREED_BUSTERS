@@ -1,0 +1,23 @@
+{
+  "name": "creed-busters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreedTech/creed_buster.git"
+  },
+  "author": "Lazy_Programmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CreedTech/creed_buster/issues"
+  },
+  "homepage": "https://github.com/CreedTech/creed_buster#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.16"
+  }
+}
