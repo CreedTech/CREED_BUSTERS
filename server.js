@@ -10,6 +10,16 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(initial_path, 'index.html'));
 })
 
+app.get('/:id', (req, res) => {
+    res.sendFile(path.join(initial_path, 'about.html'));
+})
+
+app.use((req, res) => {
+    // res.json("404");
+    res.sendFile(path.join(initial_path, '404.html'));
+})
+
+
 app.listen(3000, () => {
     console.log('listening on port 3000......');
 })
